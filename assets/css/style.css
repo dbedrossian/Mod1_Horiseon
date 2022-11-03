@@ -24,7 +24,7 @@ body {
     color: #d9dcd6;
 }
 
-/* updated divs to nav to update semantic elements */
+/* Updated "divs" to "nav" here to reflect the change to semantic elements in the HTML. */
 
 .header nav {
     padding-top: 15px;
@@ -77,6 +77,29 @@ p {
     margin-left: 20px;
 }
 
+/* Added this content section to consolidate the repetitive code lower down. I did this by deleting the extra child class and adding the tags "section" "section img" and "section h2".*/
+
+.content section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.content section img {
+    max-height: 200px;
+}
+
+.content section h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* ----------------- */
+/* Consolidated the benefits section by deleting the addtiional classes and using the "section" "h3" and "img" tags on the parent class. */
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -88,7 +111,47 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefits section {
+    margin-bottom: 32px;
+    color: #ffffff; 
+}
+
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* --------------------- */
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+
+}
+
+/* Changed h2 to h4 to reflect proper header sequence */
+
+.footer h4 {
+    font-size: 20px;
+}
+
+/* ============================================ */
+
+
+
+
+/* ~~~~~~~~~~~~~~~Deleted Code & Explainations~~~~~~~~~~~~~~~~~~ */
+
+/* ---removed all of this code and consolidated it into the ".benefits section" section--- */
+/* .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -101,9 +164,12 @@ p {
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
-}
+} */
 
-.benefit-lead h3 {
+/* --------------------------- */
+
+/* ---removed all of this code and consolidated it into the ".benefits h3" section--- */
+/* .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -116,9 +182,13 @@ p {
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
-}
+ } */
 
-.benefit-lead img {
+ /* -------------------------- */
+
+ /* ---removed all of this code and consolidated it into the ".benefits img" section--- */
+
+/* .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -134,9 +204,12 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+} */
+/* ---------------------------- */
 
-.search-engine-optimization {
+/* ---removed all of this code and consolidated it above in the content section ---*/
+
+/* .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -161,7 +234,7 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+
 
 .search-engine-optimization img {
     max-height: 200px;
@@ -173,9 +246,9 @@ p {
 
 .social-media-marketing img {
     max-height: 200px;
-}
+} */
 
-.search-engine-optimization h2 {
+/* .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -188,17 +261,8 @@ p {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+} */
 
-.footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
+/* ---------------------------------------------- */
 
-}
 
-/* changed h2 to h4 */
-.footer h4 {
-    font-size: 20px;
-}
