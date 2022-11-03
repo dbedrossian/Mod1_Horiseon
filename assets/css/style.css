@@ -190,15 +190,15 @@ p {
     font-size: 36px;
 }
 
-/* added font size to accomodate changing h2 to h4 in the footer */
 .footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    font-size: 20px;
+
 }
 
-.footer h2 {
+/* changed h2 to h4 */
+.footer h4 {
     font-size: 20px;
 }
