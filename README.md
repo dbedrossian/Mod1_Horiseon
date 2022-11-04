@@ -41,7 +41,7 @@ This is being used as an assignment project.
 
 ## Contributing
 
-Feel free to dive in! [Open an issue](https://github.com/dbedrossian/standard-readme/issues/new) or submit PRs.
+Feel free to dive in! [Contact me](https://github.com/dbedrossian) or submit PRs.
 
 
 ## Contributors
