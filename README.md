@@ -32,7 +32,7 @@ This is being used as an assignment project.
 
 ## Screenshot
 
-./assets/images/screenshot.png
+![screenshot](https://github.com/dbedrossian/Mod1_Horiseon-Accessibility-Refactor/blob/9daebd2d70a1c04e53a5b19f473f34fb33bb24ca/assets/images/screenshot.png)
 
 ## Maintainers
 
